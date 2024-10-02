@@ -1,0 +1,17 @@
+Main:
+    For i = 1 to 5:
+        Print "Enter a number:"
+        Input Number
+
+        Switch Number:
+            Case Number > 0:
+                Print "The number", Number, "is positive."
+            Case Number < 0:
+                Print "The number", Number, "is negative."
+            Case Number == 0:
+                Print "The number is zero."
+            Default:
+                Print "Invalid input."
+        End
+    End
+End

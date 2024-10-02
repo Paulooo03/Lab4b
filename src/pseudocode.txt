@@ -1,0 +1,20 @@
+Main:
+    RandomNumbers = CreateEmptyList()
+    
+    For i = 1 to 10:
+        Number = ""
+        
+        For j = 1 to 3:
+            Part = GenerateRandomInteger(1000, 9999)
+            Number = Number + Part
+            If j < 3:
+                Number = Number + "-"
+        
+        Add Number to RandomNumbers
+	end
+    end
+
+    For each Number in RandomNumbers:
+        Print Number
+    end
+end

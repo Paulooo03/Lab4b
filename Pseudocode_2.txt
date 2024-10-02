@@ -1,0 +1,23 @@
+Main:
+    Integer grades = CreateEmptyList()
+
+    For i = 1 to 5:
+        Integer grade = GenerateRandomInteger(50, 100)
+        // Add Grade to Grades
+        AddToList(Grades, Grade)
+    end
+
+    Integer total = 0
+
+    For each Grade in Grades:
+        Integer total = Total + Grade
+    end
+
+    float average = Total / Length(Grades)
+
+    Print "Student Grades:"
+    For each Grade in Grades:
+        Print Grade
+    end
+    Print "Average Grade:", Average
+end
