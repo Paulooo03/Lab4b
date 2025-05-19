@@ -21,3 +21,5 @@ Main:
     end
     Print "Average Grade:", Average
 end
+
+wow
